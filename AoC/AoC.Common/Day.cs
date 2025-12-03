@@ -4,26 +4,26 @@
     {
         public string Part1(List<string> lines)
         {
-            DoPart1(lines, out int val);
+            DoPart1(lines, out long val);
             return val.ToString();
         }
 
         public string Part2(List<string> lines)
         {
-            DoPart2(lines, out int val);
+            DoPart2(lines, out long val);
             return val.ToString();
         }
 
-        protected virtual List<List<int>> ParseInput(List<string> lines)
+        protected virtual List<List<long>> ParseInput(List<string> lines)
         {
-            var values = new List<List<int>>();
+            var values = new List<List<long>>();
             foreach (var line in lines)
             {
-                var items = new List<int>();
+                var items = new List<long>();
 
                 foreach (var item in line.Split(" "))
                 {
-                    items.Add(int.Parse(item));
+                    items.Add(long.Parse(item));
                 }
                 values.Add(items);
             }
@@ -31,7 +31,7 @@
             return values;
         }
 
-        protected abstract void DoPart1(List<string> lines, out int val);
-        protected abstract void DoPart2(List<string> lines, out int val);
+        protected abstract void DoPart1(List<string> lines, out long val);
+        protected abstract void DoPart2(List<string> lines, out long val);
     }
 }

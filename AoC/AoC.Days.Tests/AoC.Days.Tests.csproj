@@ -24,7 +24,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\AoC.Common\AoC.Common.csproj" />
-    <ProjectReference Include="..\AoC.Day1\AoC.Days.csproj" />
+    <ProjectReference Include="..\AoC.Days\AoC.Days.csproj" />
   </ItemGroup>
 
 </Project>
