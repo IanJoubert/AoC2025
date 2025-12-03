@@ -1,6 +1,6 @@
-# Advent of Code 2024 Solutions
+# Advent of Code 2025 Solutions
 
-This repository contains my solutions for the "Advent of Code" coding challenges for the year 2024. The solutions are implemented in C# using .NET 8.
+This repository contains my solutions for the "Advent of Code" coding challenges for the year 2025. The solutions are implemented in C# using .NET 8.
 
 ## Project Structure
 
