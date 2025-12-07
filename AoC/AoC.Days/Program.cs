@@ -3,4 +3,4 @@ using AoC.Days;
 
 var runner = new Runner();
 
-runner.Run(new Day5());
+runner.Run(new Day7());

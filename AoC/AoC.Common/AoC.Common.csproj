@@ -10,6 +10,12 @@
     <None Update="datasets\inputDay4.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="datasets\inputDay7.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="datasets\inputDay6.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="datasets\inputDay5.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
