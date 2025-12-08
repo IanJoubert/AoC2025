@@ -6,19 +6,6 @@ namespace AoC.Days
 
     public class Day7 : Day
     {
-        private static char[,] BuildMatrix(List<string> lines)
-        {
-            var floor = new char[lines.Count, lines[0].Length];
-            for (int i = 0; i < lines.Count; i++)
-            {
-                for (int j = 0; j < lines[0].Length; j++)
-                {
-                    floor[i, j] = lines[i][j];
-                }
-            }
-            return floor;
-        }
-
         private static void PrintMap<T>(T[,] area)
         {
             for (int i = 0; i < area.GetLength(0); i++)
