@@ -3,7 +3,7 @@
 namespace AoC.Days
 {
 
-    public class Day4 : Day
+    public class Day04 : Day
     {
 
         private char[,] BuildFloor(List<string> lines)

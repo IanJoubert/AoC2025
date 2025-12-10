@@ -16,7 +16,7 @@ namespace AoC.Days.Tests
         {
             // Arrange
             string expected = "1227775554";
-            Day2 day = new();
+            Day02 day = new();
             
             var cleanList = Sanitizer.CleanList(inputs);
 
@@ -32,7 +32,7 @@ namespace AoC.Days.Tests
         {
             // Arrange
             string expected = "4174379265";
-            Day2 day = new();
+            Day02 day = new();
 
             var cleanList = Sanitizer.CleanList(inputs);
 

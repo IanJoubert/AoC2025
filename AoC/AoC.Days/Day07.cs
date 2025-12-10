@@ -4,7 +4,7 @@ using AoC.Common;
 namespace AoC.Days
 {
 
-    public class Day7 : Day
+    public class Day07 : Day
     {
         private static void PrintMap<T>(T[,] area)
         {

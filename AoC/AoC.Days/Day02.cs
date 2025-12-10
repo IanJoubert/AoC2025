@@ -4,7 +4,7 @@ using AoC.Common;
 namespace AoC.Days
 {
     
-    public class Day2 : Day
+    public class Day02 : Day
     {
         private static List<Tuple<long, long>> ParseInput(List<string> lines)
         {

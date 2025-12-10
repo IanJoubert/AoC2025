@@ -3,7 +3,7 @@
 namespace AoC.Days
 {
 
-    public class Day8 : Day
+    public class Day08 : Day
     {
         private static List<Tuple<long, int, int>> BuildOrderedDistanceTuple(List<List<long>> input)
         {

@@ -4,7 +4,7 @@ using AoC.Common;
 namespace AoC.Days
 {
 
-    public class Day6 : Day
+    public class Day06 : Day
     {
         protected override void DoPart1(List<string> lines, out long val)
         {

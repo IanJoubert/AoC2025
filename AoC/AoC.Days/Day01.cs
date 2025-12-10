@@ -2,7 +2,7 @@
 
 namespace AoC.Days
 {
-    public class Day1 : Day
+    public class Day01 : Day
     {
         private static List<KeyValuePair<char, int>> ParseInput(List<string> lines)
         {

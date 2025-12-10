@@ -3,7 +3,7 @@
 namespace AoC.Days
 {
 
-    public class Day5 : Day
+    public class Day05 : Day
     {
         protected override void DoPart1(List<string> lines, out long val)
         {

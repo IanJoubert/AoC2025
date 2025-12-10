@@ -7,28 +7,38 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Update="datasets\inputDay4.txt">
+    <PackageReference Include="Google.OrTools" Version="9.14.6206" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="datasets\inputDay04.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="datasets\inputDay8.txt">
+    <None Update="datasets\inputDay10.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="datasets\inputDay7.txt">
+    <None Update="datasets\inputDay09.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="datasets\inputDay6.txt">
+    <None Update="datasets\inputDay08.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="datasets\inputDay5.txt">
+    <None Update="datasets\inputDay07.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="datasets\inputDay3.txt">
+    <None Update="datasets\inputDay06.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="datasets\inputDay1.txt">
+    <None Update="datasets\inputDay05.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="datasets\inputDay2.txt">
+    <None Update="datasets\inputDay03.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="datasets\inputDay01.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="datasets\inputDay02.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>
