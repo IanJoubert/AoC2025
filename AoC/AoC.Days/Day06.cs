@@ -83,7 +83,6 @@ namespace AoC.Days
                 x = start - 1;
             }
 
-            long grandTotal = 0;
             for (int p = 0; p < blocks.Count; p++)
             {
                 var (start, end) = blocks[p];

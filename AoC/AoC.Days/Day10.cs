@@ -467,7 +467,7 @@ namespace AoC.Days
             }
         }
     }
-    
+
     public static class OrToolsSolver
     {
         public static int SolveMinPressesILP(LightDiagram diagram, double timeLimitSeconds = 5.0)
@@ -531,4 +531,5 @@ namespace AoC.Days
             return -1;
         }
     }
+
 }

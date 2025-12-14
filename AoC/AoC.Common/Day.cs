@@ -44,6 +44,36 @@
             return floor;
         }
 
+        protected static Dictionary<string, List<string>> BuildGraph(List<string> lines)
+        {
+            var graph = new Dictionary<string, List<string>>(StringComparer.OrdinalIgnoreCase);
+
+            foreach (var raw in lines.Where(l => !string.IsNullOrWhiteSpace(l)))
+            {
+                var parts = raw.Split(new[] { ':' }, 2);
+                var node = parts[0].Trim();
+                var neighbors = new List<string>();
+
+                if (parts.Length > 1)
+                {
+                    neighbors = parts[1]
+                        .Split((char[]?)null, StringSplitOptions.RemoveEmptyEntries)
+                        .Select(s => s.Trim())
+                        .Where(s => s.Length > 0)
+                        .ToList();
+                }
+
+                graph[node] = neighbors;
+
+                foreach (var n in neighbors)
+                {
+                    if (!graph.ContainsKey(n))
+                        graph[n] = new List<string>();
+                }
+            }
+
+            return graph;
+        }
         protected abstract void DoPart1(List<string> lines, out long val);
         protected abstract void DoPart2(List<string> lines, out long val);
     }
